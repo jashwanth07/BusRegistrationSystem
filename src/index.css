@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#header-section {
+  background-image: url(/public/busbanner.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.home_search_card {
+  width: 400px;
+  border-radius: 20px!important;
+  text-align: center;
+  margin-top:30px;
+}

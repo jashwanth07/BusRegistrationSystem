@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "uname": "jashu",
+      "pass": "jashu",
+      "type": "admin"
+    },
+    {
+      "id": 2,
+      "uname": "venu",
+      "pass": "venu",
+      "type": "cus"
+    }
+  ]
+}
