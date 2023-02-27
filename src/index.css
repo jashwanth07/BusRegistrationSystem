@@ -26,3 +26,8 @@ code {
   text-align: center;
   margin-top:30px;
 }
+
+.seatsCard{
+  height: 500px!important;
+  width: 500px!important;
+}

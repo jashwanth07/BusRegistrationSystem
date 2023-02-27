@@ -8,6 +8,8 @@ import Home from "./Home";
 // import Customer from "./Customer";
 // import Home from "./Home";
 import Login from "./Login";
+import ViewAllBuses from "./ViewAllBuses";
+import ViewSeats from "./ViewSeats";
 // import UpdateModalForm from "./UpdateModalForm";
 // import ViewAllProducts from "./ViewAllProducts";
 // import ViewProduct from "./ViewProduct";
@@ -17,9 +19,9 @@ function Routing() {
    
   return (
     <Routes>
-      {/* <Route path="/viewAllProducts" element={<ViewAllProducts />} />
-      <Route path="/edit/:id" element={<UpdateModalForm />} />
-      <Route path="/view/:id" element={<ViewProduct />} /> */}
+     <Route path="/viewAllBuses" element={<ViewAllBuses />} />
+     {/* <Route path="/edit/:id" element={<UpdateModalForm />} /> */}
+      <Route path="/viewSeats/:id" element={<ViewSeats />} />  
       <Route path="/" exact element={<Home />} />
       <Route path="/login" element={<Login />} />
       {/* <Route path="/addProduct" element={<AddProducts />} /> */}
