@@ -62,8 +62,7 @@ function ViewAllBuses() {
                 </tbody>
             </Table>
 
-
-
+                   
         </Container>
     )
 }
