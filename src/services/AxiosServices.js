@@ -1,25 +1,25 @@
 import axios from "axios";
 
-const BASE_PRODUCTS_URL = "http://localhost:3001/products"
+const BASE_BUSES_URL = "http://localhost:3001/buses"
 const BASE_USERS_URL = "http://localhost:3001/users"
 class PmsServices {
 
     //Products Service Methods
-    getAllProducts() {
-        return axios.get(BASE_PRODUCTS_URL);
+    getAllBuses() {
+        return axios.get(BASE_BUSES_URL);
     }
-    getProductById(id) {
-        return axios.get(BASE_PRODUCTS_URL + "/" + id)
+    getBusById(id) {
+        return axios.get(BASE_BUSES_URL + "/" + id)
     }
-    updateProduct(id, product) {
-        return axios.put(BASE_PRODUCTS_URL + "/" + id, product)
+    updateBus(id, bus) {
+        return axios.put(BASE_BUSES_URL + "/" + id, bus)
     }
 
-    deleteProduct(id) {
-        return axios.delete(BASE_PRODUCTS_URL + "/" + id)
+    deleteBus(id) {
+        return axios.delete(BASE_BUSES_URL + "/" + id)
     }
-    addProduct(product) {
-        return axios.post(BASE_PRODUCTS_URL, product)
+    addBus(bus) {
+        return axios.post(BASE_BUSES_URL, bus)
     }
 
 

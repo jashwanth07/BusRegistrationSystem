@@ -12,5 +12,66 @@
       "pass": "venu",
       "type": "cus"
     }
+  ],
+  "buses": [
+    {
+      "id": 1,
+      "name": "abc"
+    },
+    {
+      "id": 2,
+      "name": "abc",
+      "bookedSeats": []
+    },
+    {
+      "id": 3,
+      "name": "abc",
+      "bookedSeats": []
+    },
+    {
+      "id": 4,
+      "name": "abc",
+      "bookedSeats": []
+    },
+    {
+      "id": 5,
+      "name": "abc",
+      "bookedSeats": []
+    },
+    {
+      "id": 6,
+      "name": "abc",
+      "bookedSeats": []
+    },
+    {
+      "id": 7,
+      "name": "abc",
+      "bookedSeats": []
+    },
+    {
+      "id": 8,
+      "name": "abc",
+      "bookedSeats": []
+    },
+    {
+      "id": 9,
+      "name": "abc",
+      "bookedSeats": []
+    },
+    {
+      "id": 10,
+      "name": "abc",
+      "bookedSeats": []
+    }
+  ],
+  "booking": [
+    {
+      "bid": 1,
+      "date": "28-2-2023",
+      "seats": [
+        10,
+        12
+      ]
+    }
   ]
 }

@@ -10,7 +10,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+}  
 
 #header-section {
   background-image: url(/public/busbanner.webp);
@@ -25,4 +25,9 @@ code {
   border-radius: 20px!important;
   text-align: center;
   margin-top:30px;
+}
+
+.seatsCard{
+  height: 500px!important;
+  width: 500px!important;
 }
